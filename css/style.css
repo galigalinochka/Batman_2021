@@ -173,12 +173,14 @@ body {
   }
 
   .short-info {
-      margin-right: 3%;
+    margin-right: 3%;
+    padding: 43px 50px;
   }
 
   .poster {
       display: block; /*чтобы кнопка буду смотреть была не сбоку от постера, а снизу*/
       margin-top: -40%;
+      margin-top: -80px;
       margin-bottom: 20px;
   }
 
@@ -205,6 +207,7 @@ body {
       padding-left: 15px;
       text-decoration-line: underline;
       line-height: 150%;
+      text-decoration: underline;
   }
 
   .tabs-item {
@@ -223,8 +226,7 @@ body {
   .tabs-item:not(:last-child) {
      margin-right: 4%;
   }
-
-  
+   
   .full-info {
       flex: 0.97;
   }
@@ -240,7 +242,7 @@ body {
 
   .tabs-content{
       margin-right: 70px;
-  }
+}
 
   .text {
     font-size: 16px;
@@ -331,9 +333,6 @@ body {
     .tabs-content {
         margin-right: 0;
     }
-
-    
-
   }
 
   @media (max-width: 578px) {
